@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Binaries
+*.odp
+
+# Python
+*.pyc
