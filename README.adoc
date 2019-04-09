@@ -1,0 +1,33 @@
+= Gepardec Machine Learning Project =
+:toc:
+:icons: font
+
+== Goal ==
+
+The goal of this project is to build up know-how in data analysis & machine learning.
+
+== Prerequisite ==
+
+This project uses Python and its scientific libraries (Numpy, Matplotlib, Pytorch, Tensorflow etc).
+
+=== Installation ===
+
+On Fedora. First, install Python 3 and Pip (Python's package installer):
+
+[source, bash]
+----
+sudo dnf install python3 python3-pip
+----
+
+Then use pip to install all the required packages (for the <<tutorial>>):
+[source, bash]
+----
+# --user installs the packages into ~/.local/
+pip3 install --user numpy matplotlib jupyter
+----
+
+=== Tutorial ===
+
+Start Jupyter with `jupyter-notebook` in the root folder of this repository.
+
+Go to http://localhost:8888/notebooks/notebooks/short-tutorial.ipynb[the tutorial] for a short introduction to Python.

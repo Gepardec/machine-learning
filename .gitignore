@@ -7,3 +7,6 @@
 
 # Python
 *.pyc
+
+# Jupyter
+.ipynb_checkpoints/
