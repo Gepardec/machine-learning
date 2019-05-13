@@ -23,7 +23,7 @@ Then use pip to install all the required packages (for the <<tutorial>>):
 [source, bash]
 ----
 # --user installs the packages into ~/.local/
-pip3 install --user numpy matplotlib jupyter
+pip3 install --user numpy matplotlib jupyter torch
 ----
 
 === Tutorial ===
